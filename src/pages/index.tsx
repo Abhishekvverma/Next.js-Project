@@ -27,7 +27,8 @@ const Home = () => {
           text-decoration: none;
         }
         h1 {
-          color: blue;
+          color: black;
+          padding : 20px
         }
         div {
           display: flex;
@@ -36,9 +37,7 @@ const Home = () => {
           justify-content: center;
           height: 100vh;
         }
-        Button {
-          margin: 10px;
-        }
+       
       `}</style>
     </div>
   );

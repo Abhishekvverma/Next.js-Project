@@ -96,6 +96,16 @@ const Login: React.FC = () => {
         >
           Log in with Google
         </Button>
+
+        <Button
+          variant="outlined"
+          fullWidth
+          startIcon={<img src="https://img.icons8.com/color/16/000000/facebook-new.png" alt="Facebook logo" />}
+          className="facebook-btn"
+          onClick={() => signIn('facebook')}
+        >
+          Log in with Facebook
+        </Button>
       </form>
     </div>
   );
